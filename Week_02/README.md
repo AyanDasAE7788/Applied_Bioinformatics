@@ -2,7 +2,7 @@
 
 ## Genome Selected
 
-For this assignment, I selected *Escherichia coli* K-12 MG1655.
+For this assignment, I selected *Escherichia coli* K-12 MG1655 bacteria genome.
 
 - **RefSeq Assembly Accession:** `GCF_000005845.2`
 - **Assembly Name:** `ASM584v2`
@@ -13,11 +13,65 @@ The FASTA and GFF files were obtained from the same genome assembly so that the 
 
 ---
 
+# Reproducing the Analysis
+
+To reproduce the analysis, you should first clone my repository:
+
+```bash
+git clone https://github.com/AyanDasAE7788/Applied_Bioinformatics.git
+```
+
+Then, enter the Week_02 directory:
+
+```bash
+cd Applied_Bioinformatics/Week_02
+```
+
+The directory contains the files required to reproduce the analysis:
+
+```text
+Week_02/
+├── README.md
+├── Makefile
+├── data/
+└── images/
+```
+
+---
+
+## 2. Required Command-Line Tools
+
+Check the following installations (needed):
+
+```bash
+git --version
+make --version
+curl --version
+samtools --version | head -n 1
+```
+
+Activate bioinfo environment:
+
+```bash
+micromamba activate bioinfo
+```
+
+or,
+
+```bash
+conda activate bioinfo
+```
+
 ## Downloading the Genomic Data
 
 The genomic FASTA and GFF annotation files were downloaded using a `Makefile`.
 
-To download the files, run:
+To download the files, first go to the source directory for the make file:
+
+```bash
+cd ~/Applied_Bioinformatics/Week_02
+```
+And then run:
 
 ```bash
 make
@@ -34,7 +88,7 @@ data/GCF_000005845.2_ASM584v2_genomic.gff.gz
 
 ## Genome Size
 
-I calculated the genome size using:
+I calculated the genome size using (when in the folder containing the data folder):
 
 ```bash
 zcat data/GCF_000005845.2_ASM584v2_genomic.fna.gz | grep -v "^>" | tr -d '\n' | wc -c
@@ -84,48 +138,21 @@ Output:
 
 Therefore, the GFF file contains **9,523 annotation records**.
 
-This number represents all feature records in the annotation file and is not limited to genes.
-
 ---
 
 ## Completeness of the Genome Build
 
-In my opinion, this genome build is highly complete. The assembly consists of a single chromosome rather than many fragmented contigs or scaffolds. *E. coli* K-12 MG1655 is also a well-established reference strain, making this assembly suitable for genome analysis and visualization.
+I think this genome build is highly complete. The assembly has one signle chromosome rather than many fragmented contigs/scaffolds. *E. coli* K-12 MG1655 is also a well-established reference strain, making this assembly suitable for genome analysis and visualization.
 
 ---
 
 # Genome Visualization in IGV
 
-## Preparing the Genome for IGV
-
-The compressed FASTA file was decompressed while keeping the original file using:
-
-```bash
-gunzip -k data/GCF_000005845.2_ASM584v2_genomic.fna.gz
-```
-
-I then indexed the FASTA file using:
-
-```bash
-samtools faidx data/GCF_000005845.2_ASM584v2_genomic.fna
-```
-
-The following files were loaded into IGV:
-
-- **Reference genome:** `GCF_000005845.2_ASM584v2_genomic.fna`
-- **Annotation track:** `GCF_000005845.2_ASM584v2_genomic.gff.gz`
-
----
-
 ## Gene Density
 
-The genes in the region I inspected appeared to be **[tightly/loosely] packed**.
+The genes in the region I inspected (near the *rna* gene) appeared to be **[very tightly] packed**. Some genes **[overlapped]** with each other.
 
-The approximate gene-to-gene distance was around **[enter estimated distance] bp**.
-
-Most genes appeared to have relatively short intergenic regions, which is consistent with the compact organization of a bacterial genome.
-
-### IGV View of Gene Density
+The approximate gene-to-gene distance from 5 samples intergenic regions (starting from *rnk* to *citF*) were: **[232, 113, 50, 3 12] bp**.
 
 ![Gene density in IGV](images/gene_density.png)
 
@@ -136,49 +163,41 @@ Most genes appeared to have relatively short intergenic regions, which is consis
 I selected the following coordinate for closer inspection:
 
 ```text
-NC_000913.3:[ENTER COORDINATE]
+NC_000913.3:[644,595]
 ```
 
 At this position, I observed:
 
-> [Describe what you see around the selected coordinate.]
-
-For example, mention whether the coordinate is inside a gene, between genes, or close to another annotated feature.
+> [The coordinate lies in the *rna* gene. There are five stop codons and two start codons(including both strands) near this coordinate. It is a C/G nucleotide.]
 
 ---
 
 ## Six Possible Reading Frames
 
-Because DNA has two strands and each strand can be translated in three possible reading frames, there are six possible reading frames in total.
-
 For the coordinate selected above, the possible codons are:
 
 | Strand | Reading Frame | Codon |
 |---|---|---|
-| Forward (+) | +1 | `[CODON]` |
-| Forward (+) | +2 | `[CODON]` |
-| Forward (+) | +3 | `[CODON]` |
-| Reverse (-) | -1 | `[CODON]` |
-| Reverse (-) | -2 | `[CODON]` |
-| Reverse (-) | -3 | `[CODON]` |
+| Forward (+) | +1 | `[His]` |
+| Forward (+) | +2 | `[Ser]` |
+| Forward (+) | +3 | `[Phe]` |
+| Reverse (-) | -1 | `[Val]` |
+| Reverse (-) | -2 | `[STOP]` |
+| Reverse (-) | -3 | `[Glu]` |
 
 ### IGV View of the Sequence
 
-![Reading frames in IGV](images/reading_frames.png)
+![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)(images/nearby_sequence_2.png)
 
 ---
 
 ## Feature Type Displayed in the Annotation Track
 
-The GFF annotation file was displayed in IGV as a feature track.
+The GFF annotation file was displayed in IGV as a feature track. Available features were: **[gene / CDS / tRNA / rRNA / ncRNA / other]**
 
-The feature I inspected was a:
+The feature I inspected at the coordinate was a:
 
-**[gene / CDS / tRNA / rRNA / ncRNA / other]**
-
-Additional information observed in IGV:
-
-> [Enter the feature name, location, or other information shown by IGV.]
+**[gene & CDS]**
 
 ---
 
@@ -186,12 +205,8 @@ Additional information observed in IGV:
 
 The annotation features were colored according to their strand orientation.
 
-- **Forward strand (+):** [enter color]
-- **Reverse strand (-):** [enter color]
-
-Coloring the features by strand makes it easier to distinguish genes located on opposite DNA strands.
-
-### IGV View Showing Strand Orientation
+- **Forward strand (+):** [Dark teal color]
+- **Reverse strand (-):** [Salmon color]
 
 ![Features colored by strand orientation](images/strand_orientation.png)
 
