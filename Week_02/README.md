@@ -9,8 +9,6 @@ For this assignment, I selected *Escherichia coli* K-12 MG1655 bacteria genome.
 - **Reference Chromosome:** `NC_000913.3`
 - **Data Source:** NCBI RefSeq
 
-The FASTA and GFF files were obtained from the same genome assembly so that the genome sequence and annotation coordinates correspond to each other.
-
 ---
 
 # Reproducing the Analysis
@@ -150,9 +148,9 @@ I think this genome build is highly complete. The assembly has one signle chromo
 
 ## Gene Density
 
-The genes in the region I inspected (near the *rna* gene) appeared to be **[very tightly] packed**. Some genes **[overlapped]** with each other.
+The genes in the region I inspected (near the *rna* gene) appeared to be **very tightly packed**. Some genes **overlapped** with each other.
 
-The approximate gene-to-gene distance from 5 samples intergenic regions (starting from *rnk* to *citF*) were: **[232, 113, 50, 3 12] bp**.
+The approximate gene-to-gene distances from 5 intergenic regions (starting from *rnk* to *citF*) were: **232, 113, 50, 3 and 12 bp**.
 
 ![Gene density in IGV](images/gene_density.png)
 
@@ -168,7 +166,7 @@ NC_000913.3:[644,595]
 
 At this position, I observed:
 
-> [The coordinate lies in the *rna* gene. There are five stop codons and two start codons(including both strands) near this coordinate. It is a C/G nucleotide.]
+> The coordinate lies in the *rna* gene. There are five stop codons and two start codons (including both strands) near this coordinate. It is a C/G nucleotide.
 
 ---
 
@@ -178,26 +176,25 @@ For the coordinate selected above, the possible codons are:
 
 | Strand | Reading Frame | Codon |
 |---|---|---|
-| Forward (+) | +1 | `[His]` |
-| Forward (+) | +2 | `[Ser]` |
-| Forward (+) | +3 | `[Phe]` |
-| Reverse (-) | -1 | `[Val]` |
-| Reverse (-) | -2 | `[STOP]` |
-| Reverse (-) | -3 | `[Glu]` |
+| Forward (+) | +1 | `His` |
+| Forward (+) | +2 | `Ser` |
+| Forward (+) | +3 | `Phe` |
+| Reverse (-) | -1 | `Val` |
+| Reverse (-) | -2 | `STOP` |
+| Reverse (-) | -3 | `Glu` |
 
 ### IGV View of the Sequence
 
+![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)(images/nearby_sequence_1.png)
 ![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)(images/nearby_sequence_2.png)
 
 ---
 
 ## Feature Type Displayed in the Annotation Track
 
-The GFF annotation file was displayed in IGV as a feature track. Available features were: **[gene / CDS / tRNA / rRNA / ncRNA / other]**
+The GFF annotation file was displayed in IGV as a feature track. Shown features were: **gene / CDS / tRNA / rRNA / ncRNA / other**
 
-The feature I inspected at the coordinate was a:
-
-**[gene & CDS]**
+The feature I inspected at the coordinate was a: **gene & CDS**
 
 ---
 
@@ -205,8 +202,8 @@ The feature I inspected at the coordinate was a:
 
 The annotation features were colored according to their strand orientation.
 
-- **Forward strand (+):** [Dark teal color]
-- **Reverse strand (-):** [Salmon color]
+- **Forward strand (+):** Dark teal color
+- **Reverse strand (-):** Salmon color
 
 ![Features colored by strand orientation](images/strand_orientation.png)
 
