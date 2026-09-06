@@ -161,7 +161,7 @@ The approximate gene-to-gene distances from 5 intergenic regions (starting from 
 I selected the following coordinate for closer inspection:
 
 ```text
-NC_000913.3:[644,595]
+NC_000913.3:644,595
 ```
 
 At this position, I observed:
