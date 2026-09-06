@@ -1,4 +1,4 @@
-# Week_02: Visualize Genomic Data
+# Week 02: Visualize Genomic Data
 
 ## Genome Selected
 
