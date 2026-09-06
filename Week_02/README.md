@@ -185,8 +185,8 @@ For the coordinate selected above, the possible codons are:
 
 ### IGV View of the Sequence
 
-![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)(images/nearby_sequence_1.png)
-![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)(images/nearby_sequence_2.png)
+![Visual inspection of sequence region near coordinate](images/nearby_sequence_1.png)
+![Visual inspection of sequence region near coordinate](images/nearby_sequence_2.png)
 
 ---
 
