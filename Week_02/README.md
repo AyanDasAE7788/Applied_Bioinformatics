@@ -13,22 +13,15 @@ For this assignment, I selected *Escherichia coli* K-12 MG1655 bacteria genome.
 
 # Reproducing the Analysis
 
-The genomic data used in this assignment can be reproduced without cloning this repository. A reviewer can create a new working directory, create a `Makefile` using the code provided below, and run it to download the same FASTA and GFF files from NCBI RefSeq.
+To download the genomic data used in this assignment, a reviewer can create a new working directory, create a `Makefile` using the code provided below, and run it to download the same FASTA and GFF files from NCBI RefSeq.
 
 ## Required Command-Line Tools
 
 The following command-line tools are needed to reproduce this analysis:
 
-### For downloading the genomic data
-
 ```bash
 make --version
 curl --version
-```
-
-### For preparing the genome for IGV
-
-```bash
 samtools --version | head -n 1
 ```
 
@@ -72,7 +65,7 @@ The Makefile also automatically creates a `data/` directory and places the downl
 
 ---
 
-## Reproducing the Download Without Cloning This Repository
+## Reproducing the Download
 
 First, create a new directory for the analysis:
 
@@ -157,78 +150,6 @@ Ecoli_MG1655/
 └── data/
     ├── GCF_000005845.2_ASM584v2_genomic.fna.gz
     └── GCF_000005845.2_ASM584v2_genomic.gff.gz
-```
-
-The downloaded files can be checked using:
-
-```bash
-ls -lh data
-```
-
-The expected files are:
-
-```text
-data/GCF_000005845.2_ASM584v2_genomic.fna.gz
-data/GCF_000005845.2_ASM584v2_genomic.gff.gz
-```
-
----
-
-## How the Makefile Works
-
-The following line defines the genome assembly being used:
-
-```makefile
-ACCESSION = GCF_000005845.2_ASM584v2
-```
-
-The following line specifies the NCBI RefSeq directory containing the genome files:
-
-```makefile
-BASE_URL = https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/$(ACCESSION)
-```
-
-These variables define where the downloaded FASTA and GFF files will be saved:
-
-```makefile
-FASTA = data/$(ACCESSION)_genomic.fna.gz
-GFF = data/$(ACCESSION)_genomic.gff.gz
-```
-
-The default target:
-
-```makefile
-all: $(FASTA) $(GFF)
-```
-
-instructs `make` to obtain both files.
-
-The commands:
-
-```makefile
-mkdir -p data
-curl -L ...
-```
-
-create the `data/` directory if necessary and download the genomic files from NCBI.
-
-The `clean` target:
-
-```makefile
-clean:
-	rm -f $(FASTA) $(GFF)
-```
-
-can be used to remove the downloaded files:
-
-```bash
-make clean
-```
-
-The files can then be reproduced again simply by running:
-
-```bash
-make
 ```
 
 ---
