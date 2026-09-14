@@ -1,4 +1,4 @@
-# Week_01 - Computer Setup
+# Week 01 - Computer Setup
 
 ## Code Editor
 
