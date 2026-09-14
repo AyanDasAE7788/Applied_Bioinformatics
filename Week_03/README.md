@@ -1,4 +1,4 @@
-# Week_03: Collaboration and Peer Review
+# Week 03: Collaboration and Peer Review
 
 ## Repository Reviewed
 
