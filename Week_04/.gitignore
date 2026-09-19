@@ -1,0 +1,14 @@
+# Raw sequencing data
+raw_data/
+
+# Filtered FASTQ files
+trimmed_data/
+
+# Generated QC reports
+qc/
+
+# Make workflow stamp files
+.stamps/
+
+# Windows metadata
+*:Zone.Identifier
