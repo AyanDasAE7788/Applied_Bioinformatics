@@ -1,0 +1,26 @@
+# Downloaded sequencing reads
+raw_data/
+
+# Quality-filtered reads
+trimmed_data/
+
+# Downloaded reference and Bowtie2 indexes
+reference/
+
+# Generated BAM and BAM index
+alignment/
+
+# Generated reports
+stats/
+
+# Make workflow marker files
+.stamps/
+
+# Additional sequencing/alignment files
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+
+# Windows metadata
+*:Zone.Identifier
