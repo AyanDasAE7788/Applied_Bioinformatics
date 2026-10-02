@@ -1,4 +1,4 @@
-# Week_06: Evaluate Structural Variants
+# Week 06: Evaluate Structural Variants
 
 ## Overview
 
@@ -9,14 +9,6 @@ The reference genome used for the analysis was:
 ```text
 https://data.biostarhandbook.com/courses/2026-appbio/igv/fasta/ebola-1976.fa
 ```
-
-The five BAM files were examined in IGV using several visualization settings, including:
-
-- View as pairs
-- Color by read strand
-- Color by insert size
-- Group by pair orientation
-- Coverage track
 
 I used changes in read coverage, abnormal insert sizes, unusual pair orientations, and consistent insertion/deletion markers to distinguish between possible structural variants.
 
