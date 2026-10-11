@@ -18,34 +18,6 @@ The Makefile automates the workflow from downloading the sequencing reads throug
 
 ---
 
-## Workflow
-
-```text
-Reference genome
-      ↓
-Download sequencing reads
-      ↓
-fastp quality filtering
-      ↓
-Bowtie2 alignment
-      ↓
-samtools sort
-      ↓
-Sorted and indexed BAM
-      ↓
-bcftools mpileup
-      ↓
-bcftools call
-      ↓
-VCF file
-      ↓
-VCF index
-      ↓
-bcftools statistics
-```
-
----
-
 ## Software
 
 The main tools used were:
@@ -107,32 +79,6 @@ Mean mapping quality: 41
 ```
 
 Therefore, the BAM exceeded the required average coverage of 10×.
-
----
-
-# Variant Calling
-
-Variants were called from the sorted BAM file using `bcftools mpileup` and `bcftools call`.
-
-The main variant-calling step was:
-
-```bash
-bcftools mpileup \
-    -Ou \
-    -f reference/GCF_000005845.2_ASM584v2_genomic.fna \
-    -a FORMAT/AD,FORMAT/DP \
-    alignment/SRR001666_sorted.bam \
-| bcftools call \
-    -mv \
-    -Oz \
-    -o variants/SRR001666_variants.vcf.gz
-```
-
-The VCF file was indexed using:
-
-```bash
-bcftools index -t variants/SRR001666_variants.vcf.gz
-```
 
 ---
 
