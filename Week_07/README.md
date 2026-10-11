@@ -1,4 +1,4 @@
-# Week_07: Generate a VCF File
+# Week 07: Generate a VCF File
 
 ## Overview
 
