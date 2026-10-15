@@ -1,0 +1,4 @@
+CHROM	POS	REF	ALT	gene	locus_tag	product	strand	codon_number	ref_codon	alt_codon	ref_aa	alt_aa	effect	SRR001666	SRR23196710	SRR23196713
+NC_000913.3	25895	A	C	fkpB	b0028	peptidyl-prolyl cis-trans isomerase FkpB	+	24	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	44727	T	G	fixC	b0043	putative oxidoreductase FixC	+	183	GTT	GGT	V	G	missense	0/1	0/0	0/0
+NC_000913.3	214989	A	G	arfB	b0191	peptidyl-tRNA hydrolase%2C ribosome rescue factor	+	53	AAA	GAA	K	E	missense	0/1	0/0	0/0

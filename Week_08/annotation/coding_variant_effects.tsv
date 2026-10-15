@@ -1,0 +1,165 @@
+CHROM	POS	REF	ALT	gene	locus_tag	product	strand	codon_number	ref_codon	alt_codon	ref_aa	alt_aa	effect	SRR001666	SRR23196710	SRR23196713
+NC_000913.3	25895	A	C	fkpB	b0028	peptidyl-prolyl cis-trans isomerase FkpB	+	24	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	42726	C	T	fixA	b0041	putative electron transfer flavoprotein FixA	+	108	GCC	GCT	A	A	synonymous	0/1	0/0	0/0
+NC_000913.3	44727	T	G	fixC	b0043	putative oxidoreductase FixC	+	183	GTT	GGT	V	G	missense	0/1	0/0	0/0
+NC_000913.3	64265	T	G	polB	b0060	DNA polymerase II	-	506	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	66528	T	C	araD	b0061	L-ribulose-5-phosphate 4-epimerase AraD	-	8	CAG	CGG	Q	R	missense	0/0	1/1	1/1
+NC_000913.3	66533	T	C	araD	b0061	L-ribulose-5-phosphate 4-epimerase AraD	-	6	AAA	AAG	K	K	synonymous	0/0	1/1	1/1
+NC_000913.3	66534	T	C	araD	b0061	L-ribulose-5-phosphate 4-epimerase AraD	-	6	AAA	AGA	K	R	missense	0/0	1/1	1/1
+NC_000913.3	66535	T	C	araD	b0061	L-ribulose-5-phosphate 4-epimerase AraD	-	6	AAA	GAA	K	E	missense	0/0	1/1	1/1
+NC_000913.3	66540	T	C	araD	b0061	L-ribulose-5-phosphate 4-epimerase AraD	-	4	GAT	GGT	D	G	missense	0/0	1/1	1/1
+NC_000913.3	74775	A	T	thiB	b0068	thiamine ABC transporter periplasmic binding protein	-	236	TTC	ATC	F	I	missense	0/0	0/1	0/0
+NC_000913.3	95394	A	C	murF	b0086	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	+	249	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	102433	T	G	ddlB	b0092	D-alanine--D-alanine ligase B	+	67	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	102435	A	G	ddlB	b0092	D-alanine--D-alanine ligase B	+	68	GAA	GGA	E	G	missense	0/1	0/0	0/0
+NC_000913.3	125817	A	G	aceF	b0115	pyruvate dehydrogenase E2 subunit	+	41	AAA	AAG	K	K	synonymous	0/1	0/0	0/0
+NC_000913.3	125820	C	T	aceF	b0115	pyruvate dehydrogenase E2 subunit	+	42	GCC	GCT	A	A	synonymous	0/1	0/0	0/0
+NC_000913.3	126126	G	A	aceF	b0115	pyruvate dehydrogenase E2 subunit	+	144	AAG	AAA	K	K	synonymous	0/1	0/0	0/0
+NC_000913.3	188922	C	G	map	b0168	methionine aminopeptidase	-	195	CTG	CTC	L	L	synonymous	0/1	0/0	0/0
+NC_000913.3	193835	T	C	dxr	b0173	1-deoxy-D-xylulose 5-phosphate reductoisomerase	+	105	GCT	GCC	A	A	synonymous	0/1	0/0	0/0
+NC_000913.3	214989	A	G	arfB	b0191	peptidyl-tRNA hydrolase%2C ribosome rescue factor	+	53	AAA	GAA	K	E	missense	0/1	0/0	0/0
+NC_000913.3	233118	T	C	mltD	b0211	membrane-bound lytic murein transglycosylase D	-	280	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	273646	T	G	ykfC	b0258	PF00078 domain-containing protein YkfC	+	267	GTC	GGC	V	G	missense	0/1	0/0	0/0
+NC_000913.3	307801	T	G	ecpC	b0291	putative fimbrial usher protein EcpC	-	511	AAC	ACC	N	T	missense	0/1	0/0	0/0
+NC_000913.3	365669	C	T	lacZ	b0344	beta-galactosidase	-	213	GTC	ATC	V	I	missense	1/1	./.	./.
+NC_000913.3	366519	G	A	lacI	b0345	DNA-binding transcriptional repressor LacI	-	331	GCG	GTG	A	V	missense	0/0	1/1	1/1
+NC_000913.3	367939	C	T	mhpR	b0346	DNA-binding transcriptional activator MhpR	-	161	CGC	CAC	R	H	missense	0/0	0/0	0/1
+NC_000913.3	390888	G	C	yaiT	b4580	putative autotransporter YaiT	+	213	CGC	CCC	R	P	missense	0/1	0/0	0/0
+NC_000913.3	469659	T	G	mdlA	b0448	ABC transporter family protein MdlA	+	263	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	524702	T	G	rhsD	b0497	protein RhsD	+	481	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	591159	T	A	nfrB	b0569	cyclic di-3'%2C5'-guanylate-activated glycosyltransferase	-	674	AAT	TAT	N	Y	missense	0/1	0/0	0/0
+NC_000913.3	603593	G	A	ybdG	b0577	miniconductance mechanosensitive channel YbdG	-	357	AAC	AAT	N	N	synonymous	0/1	0/0	0/0
+NC_000913.3	655338	T	C	dcuC	b0621	anaerobic C4-dicarboxylate transporter DcuC	-	211	ATG	GTG	M	V	missense	0/1	0/0	0/0
+NC_000913.3	684344	G	T	rihA	b0651	pyrimidine-specific ribonucleoside hydrolase RihA	-	23	CTC	CTA	L	L	synonymous	0/1	0/0	0/0
+NC_000913.3	705013	T	C	nagE	b0679	N-acetylglucosamine-specific PTS enzyme IIABC component	+	357	TTG	TCG	L	S	missense	0/0	1/1	1/1
+NC_000913.3	752455	A	G	ybgD	b0719	putative fimbrial protein YbgD	-	114	TTG	TCG	L	S	missense	0/1	0/0	0/0
+NC_000913.3	786868	A	C	gpmA	b0755	2%2C3-bisphosphoglycerate-dependent phosphoglycerate mutase	-	243	GTT	GGT	V	G	missense	0/1	0/0	0/0
+NC_000913.3	802378	G	T	ybhI	b0770	putative tricarboxylate transporter	+	164	TTG	TTT	L	F	missense	0/1	0/0	0/0
+NC_000913.3	810017	T	C	bioB	b0775	biotin synthase	+	225	GTG	GCG	V	A	missense	0/1	0/0	0/0
+NC_000913.3	821444	G	T	ybhM	b0787	Bax1-I family protein YbhM	+	218	GGG	TGG	G	W	missense	0/1	0/0	0/0
+NC_000913.3	836820	A	C	hcxB	b0801	hydroxycarboxylate dehydrogenase B	+	157	GAC	GCC	D	A	missense	0/1	0/0	0/0
+NC_000913.3	904900	T	G	ybjQ	b0866	putative heavy metal binding protein YbjQ	+	103	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	904991	G	A	amiD	b0867	N-acetylmuramoyl-L-alanine amidase D	+	27	GAG	AAG	E	K	missense	0/0	0/0	0/1
+NC_000913.3	907233	A	C	ybjT	b0869	putative NAD(P)-binding protein YbjT	-	350	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	937529	T	G	lolA	b0891	outer membrane lipoprotein carrier protein	+	53	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	984524	G	C	aspC	b0928	aspartate aminotransferase	-	396	CTG	GTG	L	V	missense	0/1	0/0	0/0
+NC_000913.3	1026808	C	T	mgsA	b0963	methylglyoxal synthase	-	70	GGT	AGT	G	S	missense	0/1	0/0	0/0
+NC_000913.3	1105085	A	G	csgC	b1043	curlin chaperone	+	42	CAA	CGA	Q	R	missense	0/1	0/0	0/0
+NC_000913.3	1120776	A	G	bssS	b1060	regulator of biofilm formation	-	60	TTT	TTC	F	F	synonymous	0/1	0/0	0/0
+NC_000913.3	1153574	A	G	pabC	b1096	aminodeoxychorismate lyase	+	92	TAC	TGC	Y	C	missense	0/1	0/0	0/0
+NC_000913.3	1175766	A	G	lolC	b1116	lipoprotein release complex - inner membrane subunit	+	114	ATG	GTG	M	V	missense	0/1	0/0	0/0
+NC_000913.3	1189089	C	T	phoQ	b1129	sensor histidine kinase PhoQ	-	230	GAA	AAA	E	K	missense	0/0	0/0	1/1
+NC_000913.3	1241109	T	C	cvrA	b1191	putative K(+):H(+) antiporter	-	321	GGA	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	1286870	C	A	ychS	b1228	putative uncharacterized protein YchS	+	54	TCC	TCA	S	S	synonymous	0/0	0/0	0/1
+NC_000913.3	1287149	G	A	tpr	b1229	protamine-like protein	-	10	CGA	TGA	R	*	stop_gained	0/1	0/0	0/0
+NC_000913.3	1334765	T	G	cysB	b1275	DNA-binding transcriptional dual regulator CysB	+	304	GTC	GGC	V	G	missense	0/1	0/0	0/0
+NC_000913.3	1337394	A	G	acnA	b1276	aconitate hydratase 1	+	522	AGC	GGC	S	G	missense	0/0	1/1	1/1
+NC_000913.3	1364001	A	C	puuC	b1300	gamma-glutamyl-gamma-aminobutyraldehyde dehydrogenase	+	420	GAC	GCC	D	A	missense	0/1	0/0	0/0
+NC_000913.3	1390367	A	G	mpaA	b1326	murein tripeptide amidase A	-	78	TGT	CGT	C	R	missense	0/1	0/0	0/0
+NC_000913.3	1466201	T	C	ydbA	b4492	putative outer membrane protein%2C N-terminal fragment	+	270	GGT	GGC	G	G	synonymous	0/0	0/1	0/1
+NC_000913.3	1474947	T	G	pdxI	b1406	pyridoxal reductase	+	243	TTA	GTA	L	V	missense	0/1	0/0	0/0
+NC_000913.3	1602856	T	G	lsrA	b1513	Autoinducer-2 ABC transporter ATP binding subunit	+	456	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	1618396	C	A	marC	b1529	inner membrane protein MarC	-	171	TTG	TTT	L	F	missense	0/1	0/0	0/0
+NC_000913.3	1648510	G	A	ydfA	b1571	DUF1391 domain-containing protein YdfA	+	1	ATG	ATA	M	I	missense	0/1	0/0	0/0
+NC_000913.3	1674106	T	G	tqsA	b1601	autoinducer 2 exporter	+	65	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	1708814	A	G	rsxC	b1629	SoxR [2Fe-2S] reducing system protein RsxC	+	632	GCA	GCG	A	A	synonymous	0/1	0/0	0/0
+NC_000913.3	1714400	T	C	gstA	b1635	glutathione S-transferase GstA	+	8	GGT	GGC	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	1778056	G	A	ydiO	b1695	putative acyl-CoA dehydrogenase YdiO	+	287	ATG	ATA	M	I	missense	0/1	0/0	0/0
+NC_000913.3	1796539	T	A	pheT	b1713	phenylalanine--tRNA ligase subunit beta	-	469	TAC	TTC	Y	F	missense	0/1	0/0	0/0
+NC_000913.3	1826186	T	G	astE	b1744	succinylglutamate desuccinylase	-	246	ACA	ACC	T	T	synonymous	0/1	0/0	0/0
+NC_000913.3	1827976	T	C	astB	b1745	N-succinylarginine dihydrolase	-	95	CAC	CGC	H	R	missense	0/1	0/0	0/0
+NC_000913.3	1842914	A	G	gdhA	b1761	glutamate dehydrogenase	+	182	ATG	GTG	M	V	missense	0/1	0/0	0/0
+NC_000913.3	1853704	T	A	ydjE	b1769	putative transporter YdjE	-	92	ATA	ATT	I	I	synonymous	0/1	0/0	0/0
+NC_000913.3	1856189	A	C	ydjH	b1772	L-glycero-L-galacto-octuluronate kinase	-	247	GTC	GGC	V	G	missense	0/1	0/0	0/0
+NC_000913.3	1873040	T	G	dgcJ	b1786	diguanylate cyclase DgcJ	+	334	TTC	GTC	F	V	missense	0/1	0/0	0/0
+NC_000913.3	1876011	T	G	nimT	b1791	2-nitroimidazole exporter	+	113	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	1876015	A	G	nimT	b1791	2-nitroimidazole exporter	+	115	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	1889327	A	T	fadD	b1805	long-chain-fatty-acid--CoA ligase	-	140	GAT	GAA	D	E	missense	0/1	0/0	0/0
+NC_000913.3	1951032	A	C	yecD	b1867	isochorismatase family protein YecD	+	67	AAA	AAC	K	N	missense	0/1	0/0	0/0
+NC_000913.3	1957452	T	G	torY	b1873	cytochrome c quinol dehydrogenase TorY	-	227	AAA	AAC	K	N	missense	0/1	0/0	0/0
+NC_000913.3	1999963	A	T	tcyJ	b1920	cystine ABC transporter periplasmic binding protein	-	141	ATT	ATA	I	I	synonymous	0/1	0/0	0/0
+NC_000913.3	2013332	T	G	fliF	b1938	flagellar basal-body MS-ring and collar protein	+	35	GTC	GGC	V	G	missense	0/1	0/0	0/0
+NC_000913.3	2082855	A	G	sbcB	b2011	exodeoxyribonuclease I	+	34	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	2096090	A	G	hisF	b2025	imidazole glycerol phosphate synthase subunit HisF	+	83	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	2103886	T	C	wbbK	b2032	putative glycosyltransferase WbbK	-	208	CGA	CGG	R	R	synonymous	0/1	0/0	0/0
+NC_000913.3	2124667	T	C	wcaI	b2050	colanic acid biosynthesis fucosyltransferase WcaI	-	360	GAA	GAG	E	E	synonymous	0/1	0/0	0/0
+NC_000913.3	2142396	G	C	udk	b2066	uridine/cytidine kinase	-	185	CAA	GAA	Q	E	missense	0/0	0/1	0/0
+NC_000913.3	2142397	T	C	udk	b2066	uridine/cytidine kinase	-	184	AAA	AAG	K	K	synonymous	0/0	0/1	0/0
+NC_000913.3	2167477	G	T	ogrK	b2082	prophage P2 late control protein OgrK	-	15	ACA	AAA	T	K	missense	0/1	0/0	0/0
+NC_000913.3	2242102	C	A	yeiB	b2152	DUF418 domain-containing protein YeiB	-	289	TGG	TTG	W	L	missense	0/1	0/0	0/0
+NC_000913.3	2274730	G	T	yejB	b2178	putative oligopeptide ABC transporter membrane subunit YejB	+	184	TTG	TTT	L	F	missense	0/1	0/0	0/0
+NC_000913.3	2280179	T	C	rsuA	b2183	16S rRNA pseudouridine(516) synthase	-	102	GAT	GGT	D	G	missense	0/1	0/0	0/0
+NC_000913.3	2303975	T	C	eco	b2209	serine protease inhibitor ecotin	+	24	GTC	GCC	V	A	missense	0/1	0/0	0/0
+NC_000913.3	2357665	G	A	rpnE	b2244	inactive recombination-promoting nuclease-like protein RpnE	+	254	GGG	GGA	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	2361168	T	G	rhmD	b2247	L-rhamnonate dehydratase	-	83	ACA	CCA	T	P	missense	0/1	0/0	0/0
+NC_000913.3	2361171	A	G	rhmD	b2247	L-rhamnonate dehydratase	-	82	TCG	CCG	S	P	missense	0/1	0/0	0/0
+NC_000913.3	2389254	A	G	yfbP	b2275	uncharacterized protein YfbP	+	47	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	2497196	T	C	alaC	b2379	glutamate--pyruvate aminotransferase AlaC	-	367	TAT	TGT	Y	C	missense	0/1	0/0	0/0
+NC_000913.3	2540549	A	G	cysA	b2422	sulfate/thiosulfate ABC transporter ATP binding subunit	-	89	ATG	ACG	M	T	missense	0/1	0/0	0/0
+NC_000913.3	2551051	G	T	yfeY	b2432	DUF1131 domain-containing lipoprotein YfeY	-	56	CAA	AAA	Q	K	missense	0/1	0/0	0/0
+NC_000913.3	2614184	G	T	focB	b2492	formate channel FocB	+	84	TGC	TTC	C	F	missense	0/1	0/0	0/0
+NC_000913.3	2660432	T	C	iscS	b2530	cysteine desulfurase IscS	-	367	GAC	GGC	D	G	missense	0/1	0/0	0/0
+NC_000913.3	2672973	A	C	hcaD	b2542	putative 3-phenylpropionate/cinnamate dioxygenase ferredoxin reductase subunit	+	309	CTA	CTC	L	L	synonymous	0/1	0/0	0/0
+NC_000913.3	2683630	C	T	yphH	b2550	putative DNA-binding transcriptional regulator%2C NAGC-like	+	256	GGC	GGT	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	2789340	C	G	glaH	b2659	glutarate dioxygenase GlaH	+	119	GCG	GGG	A	G	missense	0/1	0/0	0/0
+NC_000913.3	2794461	T	G	gabP	b2663	4-aminobutanoate:H(+) symporter	+	70	GTT	GGT	V	G	missense	0/1	0/0	0/0
+NC_000913.3	2844010	G	T	hycG	b2719	hydrogenase 3 [Fe-S] protein HycG	-	67	CGC	CGA	R	R	synonymous	0/0	1/1	1/1
+NC_000913.3	2850961	T	G	hypA	b2726	hydrogenase 3 Ni(2(+)) incorporation protein HypA	+	105	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	2881358	A	G	casC	b2758	type I-E CRISPR system Cascade subunit CasC	-	262	GTC	GCC	V	A	missense	0/1	0/0	0/0
+NC_000913.3	2943861	T	G	csdA	b2810	cysteine sulfinate desulfinase	+	175	GGT	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	3031867	T	C	uacT	b2888	urate:H(+) symporter	+	167	ATT	ATC	I	I	synonymous	0/1	0/0	0/0
+NC_000913.3	3095934	T	A	yggT	b2952	uncharacterized protein YggT	+	39	TTT	ATT	F	I	missense	0/1	0/0	0/0
+NC_000913.3	3191664	A	G	yqiI	b3048	putative fimbrial protein YqiI	+	345	AAA	GAA	K	E	missense	0/1	0/0	0/0
+NC_000913.3	3214380	A	C	rpoD	b3067	RNA polymerase sigma factor RpoD	+	445	GAT	GCT	D	A	missense	0/0	1/1	0/0
+NC_000913.3	3218700	A	C	aer	b3072	aerotaxis receptor	-	126	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	3244040	A	C	uxaC	b3092	D-glucoronate/D-galacturonate isomerase	-	234	TGT	TGG	C	W	missense	0/1	0/0	0/0
+NC_000913.3	3277489	A	G	yhaV	b3130	ribosome-dependent mRNA interferase toxin YhaV	+	51	GTA	GTG	V	V	synonymous	0/1	0/0	0/0
+NC_000913.3	3310456	A	C	pnp	b3164	polynucleotide phosphorylase	-	238	GTA	GGA	V	G	missense	0/1	0/0	0/0
+NC_000913.3	3457382	A	G	gspD	b3325	cryptic type II secretion system secretin GspDalpha	+	336	ACG	GCG	T	A	missense	0/1	0/0	0/0
+NC_000913.3	3509351	T	G	yhfW	b3380	putative mutase YhfW	-	155	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	3524676	G	T	mrcA	b3396	peptidoglycan glycosyltransferase/peptidoglycan DD-transpeptidase MrcA	+	602	GTG	GTT	V	V	synonymous	0/0	0/0	0/1
+NC_000913.3	3533444	C	G	pck	b3403	phosphoenolpyruvate carboxykinase (ATP)	+	209	GGC	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	3536449	G	T	ompR	b3405	DNA-binding transcriptional dual regulator OmpR	-	46	CGT	AGT	R	S	missense	0/0	1/1	0/0
+NC_000913.3	3555298	C	A	malT	b3418	DNA-binding transcriptional activator MalT	+	738	TAC	TAA	Y	*	stop_gained	0/1	0/0	0/0
+NC_000913.3	3557900	C	T	rtcB	b3421	RNA-splicing ligase	-	60	GTG	GTA	V	V	synonymous	0/1	0/0	0/0
+NC_000913.3	3563220	G	C	glpD	b3426	aerobic glycerol 3-phosphate dehydrogenase	+	403	CGC	CCC	R	P	missense	0/1	0/0	0/0
+NC_000913.3	3581511	C	G	yhhY	b3441	N-acetyltransferase YhhY	+	125	GCC	GGC	A	G	missense	0/1	0/0	0/0
+NC_000913.3	3628272	T	C	rbbA	b3486	ribosome-associated ATPase	-	423	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	3664545	A	G	gadW	b3515	DNA-binding transcriptional dual regulator GadW	-	25	CTG	CCG	L	P	missense	0/1	0/0	0/0
+NC_000913.3	3674795	A	C	yhjE	b3523	putative transporter YhjE	+	4	ACA	CCA	T	P	missense	0/1	0/0	0/0
+NC_000913.3	3721627	G	T	insK	b3558	IS150 conserved protein InsB	+	144	GTA	TTA	V	L	missense	0/1	0/0	0/0
+NC_000913.3	3734745	A	G	xylH	b3568	xylose ABC transporter membrane subunit	+	342	GGA	GGG	G	G	synonymous	0/1	0/0	0/0
+NC_000913.3	3778518	A	C	lldP	b3603	lactate/glycolate:H(+) symporter LldP	+	374	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	3798610	C	G	waaU	b3623	putative ADP-heptose:LPS heptosyltransferase 4	-	235	GAA	CAA	E	Q	missense	0/1	0/0	0/0
+NC_000913.3	3824944	A	G	trmH	b3651	tRNA (Gm18) 2'-O-methyltransferase	+	144	ATG	GTG	M	V	missense	0/1	0/0	0/0
+NC_000913.3	3826605	A	C	recG	b3652	ATP-dependent DNA helicase RecG	+	466	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	3877940	A	C	gyrB	b3699	DNA gyrase subunit B	-	727	GTG	GGG	V	G	missense	0/1	0/0	0/0
+NC_000913.3	3923100	T	A	rsmG	b3740	16S rRNA m(7)G527 methyltransferase	-	194	GAT	GTT	D	V	missense	0/1	0/0	0/0
+NC_000913.3	3925614	A	T	mnmG	b3741	5-carboxymethylaminomethyluridine-tRNA synthase subunit MnmG	-	7	TTT	TAT	F	Y	missense	0/1	0/0	0/0
+NC_000913.3	4093770	C	T	rhaD	b3902	rhamnulose-1-phosphate aldolase	-	168	GGC	GAC	G	D	missense	0/0	1/1	1/1
+NC_000913.3	4096801	G	A	rhaB	b3904	rhamnulokinase	-	216	GTC	GTT	V	V	synonymous	0/1	./.	./.
+NC_000913.3	4128672	A	T	metB	b3939	O-succinylhomoserine(thiol)-lyase/O-succinylhomoserine lyase	+	1	ATG	TTG	M	L	missense	0/1	0/0	0/0
+NC_000913.3	4161248	G	T	fabR	b3963	DNA-binding transcriptional repressor FabR	+	61	GGC	GTC	G	V	missense	0/0	1/1	1/1
+NC_000913.3	4164123	C	G	btuB	b3966	cobalamin outer membrane transporter	+	162	GCA	GGA	A	G	missense	0/0	1/1	1/1
+NC_000913.3	4174391	G	A	coaA	b3974	pantothenate kinase	-	212	CAC	CAT	H	H	synonymous	0/1	0/0	0/0
+NC_000913.3	4174565	A	T	coaA	b3974	pantothenate kinase	-	154	CAT	CAA	H	Q	missense	0/1	0/0	0/0
+NC_000913.3	4241840	C	A	xylE	b4031	D-xylose:H(+) symporter	-	139	GGC	TGC	G	C	missense	0/1	0/0	0/0
+NC_000913.3	4291694	G	A	nrfE	b4074	putative cytochrome c-type biogenesis protein NrfE	+	61	CTG	CTA	L	L	synonymous	0/0	0/0	0/1
+NC_000913.3	4307310	G	A	alsK	b4084	D-allose kinase	-	164	CTG	TTG	L	L	synonymous	0/0	0/1	0/0
+NC_000913.3	4307311	T	C	alsK	b4084	D-allose kinase	-	163	GAA	GAG	E	E	synonymous	0/0	0/1	0/0
+NC_000913.3	4307312	T	A	alsK	b4084	D-allose kinase	-	163	GAA	GTA	E	V	missense	0/0	0/1	0/0
+NC_000913.3	4332321	T	C	basS	b4112	sensor histidine kinase BasS	-	318	ATT	GTT	I	V	missense	0/1	0/0	0/0
+NC_000913.3	4376335	G	A	ecnA	b4410	entericidin A lipoprotein%2C antidote to entericidin B	+	7	GTT	ATT	V	I	missense	0/0	0/0	0/1
+NC_000913.3	4379014	G	A	frdD	b4151	fumarate reductase membrane protein FrdD	-	118	ACA	ATA	T	I	missense	0/0	1/1	1/1
+NC_000913.3	4384601	T	G	yjeM	b4156	putative transporter YjeM	+	255	TAT	GAT	Y	D	missense	0/0	0/0	0/1
+NC_000913.3	4384610	G	C	yjeM	b4156	putative transporter YjeM	+	258	GCA	CCA	A	P	missense	0/0	0/0	0/1
+NC_000913.3	4412858	G	T	yjfM	b4185	DUF1190 domain-containing protein YjfM	+	158	GCT	TCT	A	S	missense	0/1	0/0	0/0
+NC_000913.3	4435190	T	C	cpdB	b4213	2'%2C3'-cyclic-nucleotide 2'-phosphodiesterase/3'-nucleotidase	-	459	GAG	GGG	E	G	missense	0/1	0/0	0/0
+NC_000913.3	4457411	A	G	yjgA	b4234	putative ribosome biogenesis factor YjgA	-	152	ATC	ACC	I	T	missense	0/1	0/0	0/0
+NC_000913.3	4520910	T	G	yjhF	b4296	putative transporter YjhF	-	371	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	4551237	A	T	gntP	b4321	fructuronate transporter	-	20	AAT	AAA	N	K	missense	0/1	0/0	0/0
+NC_000913.3	4568504	T	G	mdtM	b4337	multidrug efflux pump/bile salt:H(+) antiporter/Na(+):H(+) antiporter/K(+):H(+) antiporter	-	6	ACC	CCC	T	P	missense	0/1	0/0	0/0
+NC_000913.3	4572712	T	C	yjiT	b4342	putative uncharacterized protein YjiT	+	100	TTC	TCC	F	S	missense	0/1	0/0	0/0
+NC_000913.3	4585480	G	A	hsdR	b4350	type I restriction enzyme EcoKI endonuclease subunit	-	428	CAA	TAA	Q	*	stop_gained	0/0	1/1	1/1
+NC_000913.3	4602509	C	T	yjjP	b4364	putative succinate exporter YjjP	-	117	TGG	TAG	W	*	stop_gained	0/0	1/1	1/1
+NC_000913.3	4616669	G	T	yjjI	b4380	DUF3029 domain-containing protein YjjI	-	133	CTA	ATA	L	I	missense	0/0	1/1	1/1
