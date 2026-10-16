@@ -159,7 +159,7 @@ Ecoli_MG1655/
 I calculated the genome size using (when in the folder containing the data folder):
 
 ```bash
-zcat data/GCF_000005845.2_ASM584v2_genomic.fna.gz | grep -v "^>" | tr -d '\n' | wc -c
+gzip -dc data/GCF_000005845.2_ASM584v2_genomic.fna.gz | grep -v "^>" | tr -d '\n' | wc -c
 ```
 
 Output:
