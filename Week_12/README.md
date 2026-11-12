@@ -9,15 +9,6 @@ In this assignment, I performed transcript-level RNA-seq quantification and gene
 
 I used the same chromosome 22 RNA-seq dataset from Week 11, consisting of three Human Brain Reference (HBR) replicates and three Universal Human Reference (UHR) replicates.
 
-The six samples were:
-
-- HBR_Rep1
-- HBR_Rep2
-- HBR_Rep3
-- UHR_Rep1
-- UHR_Rep2
-- UHR_Rep3
-
 ---
 
 ## Workflow
@@ -60,7 +51,7 @@ From the `Week_12` directory, first check that the required programs are availab
 make check-tools
 ```
 
-Run the complete workflow with:
+Then, run the complete workflow with:
 
 ```bash
 make
@@ -72,15 +63,6 @@ The Makefile will:
 - build the Salmon index,
 - quantify all six samples,
 - and run the R script that generates both count matrices.
-
-The R script can also be run separately after Salmon quantification:
-
-```bash
-Rscript src/make_count_matrices.R \
-    quant \
-    ../Week_11/gtf/chr22.gtf \
-    results
-```
 
 ---
 
@@ -101,21 +83,7 @@ The transcript-level matrix contains:
 - **4,559 transcript rows**
 - **9 columns**
 
-The columns are:
-
-```text
-transcript_id
-gene_id
-gene_name
-HBR_Rep1
-HBR_Rep2
-HBR_Rep3
-UHR_Rep1
-UHR_Rep2
-UHR_Rep3
-```
-
-Each row therefore represents an individual transcript and its estimated Salmon counts in the six samples.
+Each row represents an individual transcript and its estimated Salmon counts in the six samples.
 
 ### Gene-level matrix
 
@@ -129,19 +97,6 @@ The gene-level matrix contains:
 
 - **1,408 gene rows**
 - **8 columns**
-
-The columns are:
-
-```text
-gene_id
-gene_name
-HBR_Rep1
-HBR_Rep2
-HBR_Rep3
-UHR_Rep1
-UHR_Rep2
-UHR_Rep3
-```
 
 Gene-level counts were calculated by summing the transcript-level counts of all transcripts belonging to each gene.
 
@@ -230,25 +185,15 @@ The script:
 
 ---
 
-## Experience With AI Prompting and Programming
+## Experience and Challenges With AI Prompting and Programming
 
-I used AI assistance while developing and troubleshooting the workflow. AI was helpful for breaking the assignment into smaller computational steps, drafting the R code for combining Salmon outputs, interpreting command-line errors, and improving the reproducibility of the Makefile.
+So far, my experience with AI has been really good. I've used ChatGPT Plus for this course, and most of the time I got what I wanted. Sometimes, even if I wanted to verify my visual observation from IGV, I could do that by taking images and sending them to ChatGPT. This also helped me to explore the IGV software. For developing this workflow, AI helped me to breakdown the assignment into smaller computational steps and writing R code. However, I ran each part of the workflow and verified the outputs. For example, I checked that all six Salmon `quant.sf` files were generated, confirmed the dimensions of both count matrices, inspected the matrix headers and several rows, and compared selected gene counts with the RNA-seq patterns observed visually in IGV during Week 11.
 
-Rather than using the generated code without checking it, I ran each part of the workflow and verified the outputs. For example, I checked that all six Salmon `quant.sf` files were generated, confirmed the dimensions of both count matrices, inspected the matrix headers and several rows, and compared selected gene counts with the RNA-seq patterns observed visually in IGV during Week 11.
-
-An important part of working with AI was providing specific information about file names, directory structure, expected outputs, and error messages. More detailed prompts generally produced more useful code and made troubleshooting easier.
-
----
-
-## Challenges
+An important part of working with AI that I figured out was providing specific information about file names, directory structure, expected outputs, and error messages. Taking screenshots of every outcome and feeding those into the AI conversation really helped me to fine tune my model. More detailed prompts generally produced more useful code and made troubleshooting easier.
 
 One challenge was setting up the required software environment. Salmon, `gffread`, and R were not initially available in the active environment, so they had to be added to the existing Pixi `bioinfo` environment.
 
 Another challenge was connecting transcript-level Salmon results to gene-level information. Salmon reports transcript identifiers and estimated counts, whereas the assignment required both gene names and gene-level counts. This required extracting transcript-to-gene relationships from the GTF annotation and then summing counts for transcripts belonging to the same gene.
-
-I also had to understand why some Salmon counts were fractional. These values are expected because Salmon estimates the allocation of ambiguously mapped reads among transcripts.
-
-Finally, the fold changes obtained from Salmon counts were not identical to the normalized coverage estimates from Week 11. This demonstrated that genome coverage and transcript-level quantification are related but different ways of measuring RNA-seq expression.
 
 ---
 
